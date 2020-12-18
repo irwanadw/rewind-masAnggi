@@ -8,4 +8,4 @@ const db = require('knex')({
   }
 });
 
-module.exports = dbConnection
+module.exports = db
